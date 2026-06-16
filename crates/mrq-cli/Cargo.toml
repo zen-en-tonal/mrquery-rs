@@ -1,0 +1,20 @@
+[package]
+name = "mrq-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "mrq"
+path = "src/main.rs"
+
+[dependencies]
+mrq-core = { path = "../mrq-core" }
+mrq-index = { path = "../mrq-index" }
+mrq-query = { path = "../mrq-query" }
+anyhow.workspace = true
+serde = { workspace = true }
+serde_json.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+clap.workspace = true
+walkdir.workspace = true

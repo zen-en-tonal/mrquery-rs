@@ -1,0 +1,12 @@
+[package]
+name = "mrq-tests"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dev-dependencies]
+mrq-core = { path = "../mrq-core" }
+mrq-index = { path = "../mrq-index" }
+mrq-query = { path = "../mrq-query" }
+mrq-eval = { path = "../mrq-eval" }
+tempfile.workspace = true

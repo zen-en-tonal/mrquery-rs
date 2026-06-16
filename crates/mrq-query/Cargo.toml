@@ -1,0 +1,13 @@
+[package]
+name = "mrq-query"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+mrq-core = { path = "../mrq-core" }
+mrq-index = { path = "../mrq-index" }
+thiserror.workspace = true
+anyhow.workspace = true
+serde = { workspace = true }
+serde_json.workspace = true
+tracing.workspace = true
